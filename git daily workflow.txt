@@ -1,0 +1,65 @@
+==Git daily==
+* Initial setup
+-- When first setting up for git we need to make sure you are identifiable 
+** git config --global user.name "[username]"
+** git config --global email [email]
+--This will identify you by email and by username.  This will be your persona for when you make commits
+-- Additional properties can be sent such as your editor tool of choice (used for commit message,etc)
+** git config --global core.editor [editor]
+Note: This is usually setup to your default editor on your system, such as vim,emacs, notepad,etc
+-- You can configure a diff tool to use as well
+** git config --global merge.tool [mergetool]
+Note: You can customize these options whnever you need too. http://git-scm.com/book/en/Customizing-Git
+* Getting started
+--Initing--
+-- When starting a project you must init a git project within the directory you wish to tracked
+** git init 
+-- This will create a .git directory in whatever folder you ran this command and will start to track everything within the folder
+
+--Cloning--
+-- To get started making changes in a repository in git you first must clone the repository
+-- This is the most common way you will probably start working on a project which is version controlled with git
+** git clone [url]
+--the URL protocol can be http(s)://, git:// or user@server:/path.git
+
+Note: The cloning of a repository is making a local copy of the entire repository to your machine.  This allows git to perform a majority of version control operations locally and not accrue the overhead of having a network connection.
+
+*Staging and tracking files* 
+-- When you are ready to commit files you must first stage these files.
+-- Files are either untracked or unstaged for a commit
+-- Untracked files are files that has not been previously commits
+-- Unstaged files are files that have been modified but not staged for commit
+** git add [file]
+-- You can use git status along the way to see which files are untracked or unstaged
+** git status
+
+*Committing files* 
+-- After you have staged all files you may commit those files
+** git commit
+-- Your editor of choice should pop up and allow you to put in a commit message
+-- You can use a shortcut to put the commit message in the command line
+** git commit -m "[message]"
+-- You can also skip over the staging phase and commit all unstaged and untracked files
+** git commit -a
+
+Note: Commits are only made locally.  We will explain sharing your repos with others later on.
+
+*Branching*
+-- One of the most powerful tools we have at our disposal using git.
+-- Branches are lightweight and easy to create and destroy as needed
+(git command here)
+-- This above command creates a branch in which we can start doing work
+-- We first need to make sure we are working in this branch
+(git command here)
+-- We can now make changes in this branch
+
+*Merging* 
+-- When you are doing working on stuff from a branch and wish to merge it back to your main branch git makes this very easy with it's merge command
+(git command here)
+-- After we merge a branch it is usually no longer needed and we can then delete the branch
+(git command here)
+-- Sometimes when you are done working with a branch it is no longer needed and can be deleted
+(git command here)
+
+
+

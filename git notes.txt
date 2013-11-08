@@ -1,0 +1,21 @@
+*Howto Git*
+-- Git is a DVCS (Distributed Version Control System)
+-- DVCS everything is a current working copy
+-- This means no network connection is needed to make changes.
+-- everything is local. Most of your basic operations are local
+
+
+
+Things to explain:
+-- Branching
+-- local only
+-- commit early and commit often mantra
+
+
+Git Flow:
+-- TODO get information about gitflow to present.
+
+
+questions about git
+--What does each command do? 
+--- Provide a good source of command documents and a good presentation which goes over the most basic commands.

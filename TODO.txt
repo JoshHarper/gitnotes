@@ -1,0 +1,32 @@
+Git task list:
+
+Finished Documentation:
+* Create document linking to good articles and the intro to git document (finished)
+* Finished document for intro (finished)
+** Need to fill in gaps if needed (finished)
+** Possible items. The move and remove ability of items. (finished)
+
+TODO for documentation:
+** git log (still need to do)
+** Need to finish git best practices documentation
+** git flow material
+** Make a comparison chart from SVN to git (still need todo)
+
+
+Git intro presentation
+* Develop a presentation that will go from creation of a local repository to a completed issue with a push.
+* Need to make sure it's only an hour long
+* Need to do a live demo as much as a power point presentation.
+** Considering not doing an actual powerpoint presentation vs just a live demo.
+** This will make the Confluence documents make much more sense.
+
+Git flow presentation
+* Power point presentation
+** Make sure it's applicable to how people work correctly.
+** Considering diluting in order to make sure the git migration is a bit less painless
+** Very much consider this because we don't want it so diluted it defeats the purpose of gitflow.
+
+
+
+
+

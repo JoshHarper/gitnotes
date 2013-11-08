@@ -1,0 +1,26 @@
+==Git working with others==
+
+*Setting up git remote
+-- If you created repository via the git clone command there is not need to setup remote branches
+-- If you wish to track a remote repository you can issue a command to add a new remote for you to track
+(git command here) 
+
+
+*Retrieving changes from a remote server*
+-- Now that you setup a remote server to track you can fetch changes from that server
+(git command here)
+-- This will create a branch that is a local version of the remote branch usually named ${remoteRepo}/${branch}
+-- If you wish to merge the changes into your own branch a git merge is needed
+-- There is additional command you can issue which will do a git fetch and merge itself
+(git command here)
+
+*Getting your changes to a central server
+-- At some point in time you will need to share your changes with others 
+-- When sharing changes you will push an entire branch to the remote server
+(git command here)
+
+*Deleting a remote branch
+-- Every now and then you will need to remove a branch from a remote server
+(git command here)
+-- This is good for cleaning up branches you have already merged and aren't needed to be tracked anymore
+
