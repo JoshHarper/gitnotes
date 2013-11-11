@@ -1,0 +1,44 @@
+Getting started with git
+
+*What is git?*
+**Git is a Distributed Version Control System(DVCS) created by Linus Torvald.  A DVCS is a type of version control that does not require a common network connection for collaboration.  This allows a developer to perform most basic operations of any version control system right in their own repository without the overhead of a network connection.
+
+*To start using git the first thing we need to do is make sure you are identifiable.
+*git config --global user.name "Josh Harper"
+*git config --global user.email josh.harper@vocalocity.com
+*This is your persona which is how git identifies who makes commits etc.
+
+*Now we need to clone a repository in which you can make your own changes
+* git clone git@github.com:JoshHarper/gitnotes.git
+* There are many different URLs we can use to clone a repository. The above one uses SSH for authentication
+
+*Now we are ready to make some changes to files. 
+* After making changes files need to be staged for a commit
+* Staging allows git to explictly say which changes we wish to be in the next commit
+* git add [file]
+* this command add an Unstaged file to the staging area in order to be commited
+* You can see the status of what is currently not staged for a commit by running
+* git status
+* you can shotcut to add all items to the staging area with
+* git add .
+
+*Time to commit the changes we have made
+* git commit
+* As you can see a text editor will pop up and allow you to make a commit
+* You can change this to any text editor you wish
+(make another change)
+* Here is a shortcut to make a commit without using a text editor for a message
+* git commit -m "[msg]"
+* you can skip over the staging area and commit unstaged files directly
+* git commit -a
+
+
+*Now that we have some commit changes let's take a look at the past history
+* git log
+* The above command looks at some commits made previously
+* git log -3 -p
+* This command shows 3 commits and the diff introduced in those commits.
+* There are many additional options to pass to git log.
+
+
+*
