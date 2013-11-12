@@ -41,4 +41,46 @@ Getting started with git
 * There are many additional options to pass to git log.
 
 
+*Let's say you are creating a new feature
+* A good thing to do is create a new branch
+* git branch myNewFeature
+* This command creates a branch from your current branch
+* git branch
+* This will list all branches you currently have locally
+(possible questions for remote branches)
+* git branch -v
+*To start working on a branch you need to check it out
+* git checkout [branchName]
+* git status
+* You can see we are now working on the branch we created
+* Now you can continue to do work on the new branch you created
+(shortcut for branching)
+* git checkout -b [branchName]
+
+*Now after finishing your work on a branch it's time to merge it back into a master branch
+* git checkout master
+* This command is used to switch us back into our master branch
+* git merge [branchName]
+* we have now merged our branch into the master
+* We can now delete our branch since all our of changes are currently merged
+* git branch -d [branchName]
+
+*Now that we've made updates to your own repository let's see how git works with a central repository
+* Let's get some changes for the origin
+* git pull 
+* This will pull down changes from your origin
+* The performs a fetch will pulls down changes for an origin and then a merge between your master and the origin's master
+* Origin is a keyword in git which means the place your cloned repository originated
+* git remote
+* This command will list the alias of all git remotes
+* git remote -v 
+* This command will list the URL and alias for all git remotes
+
+
+*Now that you've synced with a central repository it's time to share your changes with others
+* git push origin master
+* This command will push your changes from your repository to your origin
+(which is this case is github)
+* you can push other branches as well
+
 *
