@@ -74,7 +74,7 @@ Getting started with git
 * git remote
 * This command will list the alias of all git remotes
 * git remote -v 
-* This command will list the URL and alias for all git remotes
+* This command will list the URL and alias for all git remote accounts
 
 
 *Now that you've synced with a central repository it's time to share your changes with others
