@@ -14,9 +14,9 @@ Getting started with git
 
 *Now we are ready to make some changes to files. 
 * After making changes files need to be staged for a commit
-* Staging allows git to explictly say which changes we wish to be in the next commit
+* Staging allows git to explicitly say which changes we wish to be in the next commit
 * git add [file]
-* this command add an Unstaged file to the staging area in order to be commited
+* this command add an un-staged file to the staging area in order to be committed
 * You can see the status of what is currently not staged for a commit by running
 * git status
 * you can shotcut to add all items to the staging area with
